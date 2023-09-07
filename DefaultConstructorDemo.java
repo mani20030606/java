@@ -4,7 +4,7 @@
 //DefaultConstructorDemo
 import java.io.*;
 import java.util.*;
-Public class Rectangle{
+Public class Rectangle {
     int l,b,a;
     Rectangle (){
         //default constructor because there is nothing in the paranthesis
@@ -14,11 +14,11 @@ Public class Rectangle{
     }//constructor end
 }//class end
 
-public class DefaultConstructorDemo{
-    public staic void main(String args[]){
-        Rectangle R1= new rectangle();//it's a default constructor because there is nothing in the paranthesis.
-        Rectangle R2= new rectangle();
-        System.out.println("Area of the rectangle 1 is"+R1.a);
-        System.out.println("Area of the rectangle 2 is"+R2.a);
-        }
+public class DefaultConstructorDemo {
+    public static void main(String args[]){
+        Rectangle r1= new rectangle();//it's a default constructor because there is nothing in the paranthesis.
+        Rectangle r2= new rectangle();
+        System.out.println("Area of the rectangle 1 is"+r1.a);
+        System.out.println("Area of the rectangle 2 is"+r2.a);
+    }
 }
