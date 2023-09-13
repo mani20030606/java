@@ -1,6 +1,6 @@
 //java program to demonistrate polymorphism
 //12-09-2023
-//aditya
+//Mani
 //PolymorphismDemo
 import java.io.*;
 class Animal
