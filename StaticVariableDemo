@@ -1,0 +1,27 @@
+import java.io.*;
+class Student
+{
+    int Rollno;
+    String Name;
+    static String collage = "SITE";
+    Student(int R, String N)
+    {
+        Rollno = R;
+        Name = N;
+    }
+    void  display()
+    {
+        System.out.println(Rollno+""+Name+""+collage);
+    }
+}
+public class StaticVariableDemo
+{
+    public static void main(String args[])
+    {
+        Student s1 = new Student(242,"aditya");
+        Student s2 = new Student(234,"ram");
+        System.out.println("student detials are");
+        s1.display();
+        s2.display();
+    }
+}
