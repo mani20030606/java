@@ -5,8 +5,8 @@ public class RandomNumberWithinRange
 {  
 public static void main( String args[] )   
 {  
-int min = 200;  
-int max = 400;  
+int min = 100;  
+int max = 500;  
 //Generate random double value from 200 to 400   
 System.out.println("Random value of type double between "+min+" to "+max+ ":");  
 double a = Math.random()*(max-min+1)+min;   
